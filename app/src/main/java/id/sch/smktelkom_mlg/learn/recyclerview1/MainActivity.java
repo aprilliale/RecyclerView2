@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
         a.recycle();
 
-        for (int i = 1; i < arJudul.length; i++) {
+        for (int i = 0; i < arJudul.length; i++) {
             mList.add(new Hotel(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
